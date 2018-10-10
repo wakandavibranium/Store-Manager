@@ -156,3 +156,25 @@ tr:nth-child(even) {
     background-color: #d1cece;
     color: black;
 }
+
+.product {
+    float: left;
+    margin-left: 2px;
+    margin-right:20px;
+    text-align: center;      
+    width: 30%;
+    height: 70%;
+}
+
+.cart {
+    float: left;
+    width: 65%;
+    padding: 5px;
+    height: 70%; 
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
