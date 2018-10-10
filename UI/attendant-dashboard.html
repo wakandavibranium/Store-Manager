@@ -13,5 +13,22 @@
                 <img src="./images/shopping-cart.svg" height="50px" width="50px"> &nbsp;&nbsp; Store Manager
             </div>           
         </header>
+        <div class="dashboard">
+            <div class="side-menu">
+                <button class="tabs" onclick="openPage(event, 'Dashboard')" id="defaultPage">Dashboard</button>
+                <button class="tabs" onclick="openPage(event, 'ShoppingCart')">Shopping Cart</button>                
+                <button class="tabs" onclick="openPage(event, 'Products')">Products</button>
+                <button class="tabs" onclick="openPage(event, 'Sales')">Sales</button>
+                <button>Logout</button>
+            </div><!--side-menu-->
+
+            <div class="contents" id="Dashboard" >
+                <h2>Dashboard Summary</h2>
+                <p>My Summary</p>
+            </div><!--contents-->
+
+        </div><!--dashboard-->
+        <!--Call our external javascript file to render the contents of each menu-->
+        <script src="./js/script.js"></script>                
     </body>
 </html>
