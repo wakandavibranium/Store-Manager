@@ -176,7 +176,8 @@ tr:nth-child(even) {
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    margin-bottom: 30px;
+    display: block;
 }
 
 form.search-bar input[type=text] {
@@ -202,4 +203,19 @@ form.search-bar button {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;    
+}
+
+.default-dashboard {
+    float:left;
+    margin-left: 2px;
+    margin-right:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-color: #003366;
+    color: #d1cece;
+    border:1px solid #000;
+    padding-left : 10px;
 }
