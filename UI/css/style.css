@@ -219,3 +219,20 @@ form.search-bar button {
     border:1px solid #000;
     padding-left : 10px;
 }
+
+.green button {
+    float:right;
+    background-color:rgb(27, 124, 14);
+    color:#ffffff;    
+    border: none;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 15px;
+    opacity: 0.5;
+    transition: 0.3s;     
+}
+
+.green button:hover {
+    opacity: 1.0; 
+}
