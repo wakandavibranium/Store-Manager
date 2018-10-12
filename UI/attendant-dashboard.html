@@ -101,7 +101,77 @@
                         <td>Ksh: 1,00</td>
                     </tr>
                 </table>                         
-            </div><!--Products-->            
+            </div><!--Products-->
+            
+            <div id="ShoppingCart" class="contents">
+                <div class="table-title">
+                    <h2>Shopping Cart</h2>
+                </div>
+
+                <div class="row">
+                    <div class="product">
+                        <div class="row">
+                            <div class="product">
+                                <img src="./images/choclate.jpg" width="50px" height="50px"/>
+                                <br>
+                                <p><b>Fruit & Nut</b></p>
+                                <p>Ksh: 150</p>
+                                <input type="text" value="1" size="2"><br>
+                                <button>Add To Cart</button>
+                            </div>
+                            <div class="product">
+                                <img src="./images/drinks.jpg"  width="50px" height="50px"/>
+                                <br>
+                                <p><b>Coca Cola</b></p>
+                                <p>Ksh: 50</p>
+                                <input type="text" value="1" size="2"><br>
+                                <button>Add To Cart</button>
+                            </div>           
+                        </div>    
+                    </div>
+                    <div class="cart">
+                        <table>
+                            <tr>
+                                <th>Product Id</th>
+                                <th>Description</th>
+                                <th>Quantity</th>
+                                <th>Unit Price</th>
+                                <th>Sub Total</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr>
+                                <td><a href="#">1</a></td>
+                                <td>Brookside Milk</td>                        
+                                <td><input type="text" value="1" size="2"></td>
+                                <td>Ksh: 48</td>
+                                <td>Ksh: 96</td>
+                                <td><button>Remove</button></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">2</a></td>
+                                <td>Krackles</td>                        
+                                <td><input type="text" value="2" size="2"></td>
+                                <td>Ksh: 30</td>
+                                <td>Ksh: 60</td>
+                                <td><button class="delete-button">Remove</button></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">3</a></td>
+                                <td>Boerewors</td>                        
+                                <td><input type="text" value="1" size="2"></td>
+                                <td>Ksh: 100</td>
+                                <td>Ksh: 100</td>
+                                <td><button>Remove</button></td>
+                            </tr>                           
+                        </table>
+                        <br><br><br>
+                        <div class="float:right">
+                            <p><b>Total Ksh: 256</b></p>
+                            <button>Checkout</button>
+                        </div>
+                    </div><!--cart-->
+                </div><!--row--> 
+            </div><!--ShoppingCart-->
         </div><!--dashboard-->
         <!--Call our external javascript file to render the contents of each menu-->
         <script src="./js/script.js"></script>                
