@@ -72,3 +72,23 @@ function filterSales() {
       }       
     }
 }
+
+//Function for adding users
+function addUser() {
+    var table = document.getElementById("userTable");
+    var row = table.insertRow(3);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    var cell5 = row.insertCell(4);
+    var cell6 = row.insertCell(5);
+    var cell7 = row.insertCell(6);                   
+    cell1.innerHTML = "3";
+    cell2.innerHTML = "Spider Man";
+    cell3.innerHTML = "spiderman@gmail.com";
+    cell4.innerHTML = "0710683456";
+    cell5.innerHTML = "................";
+    cell6.innerHTML = "................";
+    cell7.innerHTML = "<input type=\"checkbox\" name=\"admin\">"; 
+}
