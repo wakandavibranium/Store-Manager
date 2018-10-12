@@ -39,3 +39,36 @@ function addProduct() {
     cell7.innerHTML = "<a href=\"#\">Edit</a>";
     cell8.innerHTML = "<a href=\"#\">Delete</a>";
 }
+
+//Function for filtering sales by store attendant
+function filterSales() {
+    //Declare our variables
+    var input, filter, table, tr, td, i;
+    
+    // capture the user's input
+    input = document.getElementById("captureUserInput");
+
+    //Convert the user's input to UpperCase
+    filter = input.value.toUpperCase();
+
+    //Get the id our sales table
+    table = document.getElementById("salesTable");
+    
+    //Get the table rows
+    tr = table.getElementsByTagName("tr");
+    
+    //Loop through all the rows in the table
+    for (i = 0; i < tr.length; i++) {
+
+      //Get data in each row by searching using the 'Created by' column  
+      td = tr[i].getElementsByTagName("td")[4];
+      if (td) {
+        //Display the row if search results match otherwise return nothing
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+}
