@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin:0;
+    background: rgb(70, 95, 110);
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-wrapper {
+    margin: auto;
+    margin-top: 100px;
+    width: 350px;
+    overflow: hidden;
+    padding: 22px;
+    background: #cfcece;
+    border: 3px slategrey;
+    border-radius: 10px;  
+}
+.form-wrapper .form-label{
+    margin-left: 12px;
+}
+
+.form-wrapper input {
+    border: 0px #888;
+    border-radius: 7px;
+    padding: 6px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    width: 310px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.form-wrapper .btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(27, 124, 14);
+    color: #ffffff;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 120px;
+    opacity: 1.0;
+    transition: 0.4s;    
+}
+
+.btn:hover {
+    opacity: 1
+}
+
+.profile-photo{
+    margin: auto;
+    margin-left: 140px;
+    border-radius: 50%;
+    width: 20%;
+    border: rgb(139, 131, 131); 
+}
