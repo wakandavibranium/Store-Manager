@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <title>Store Manager | Admin - Dashboard</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header>            
+            <div>
+                <img src="./images/shopping-cart.svg" height="50px" width="50px"> &nbsp;&nbsp; Store Manager
+            </div>           
+        </header>
+        <div class="dashboard">
+            <div class="side-menu">
+                <button class="tabs" onclick="openPage(event, 'Dashboard')" id="defaultPage">Dashboard</button>
+                <button class="tabs" onclick="openPage(event, 'ProductCategory')">Product Category</button>                
+                <button class="tabs" onclick="openPage(event, 'Products')">Products</button>
+                <button class="tabs" onclick="openPage(event, 'Sales')">Sales</button>                
+                <button class="tabs" onclick="openPage(event, 'StoreAttendants')">Store Attendants</button>
+                <button>Logout</button>
+            </div><!--side-menu-->
+
+            <div class="contents" id="Dashboard" >
+                <h2>Admin Dashboard Summary</h2>
+                <div class="row">
+                    <div class="default-dashboard">
+                        <div>
+                            <h2>Sales</h2>                        
+                            <p>105,000</p>
+                        </div>                    
+                    </div><!--default-dashboard-->
+
+                    <div class="default-dashboard">
+                        <div>
+                            <h2>Products Sold</h2>                         
+                            <p>23,000</p>
+                        </div>           
+                    </div><!--default-dashboard-->
+                    <div class="default-dashboard">
+                        <div>
+                            <h2>Worth Of Products Sold</h2>                         
+                            <p>423,500</p>
+                        </div>           
+                    </div><!--default-dashboard-->                                                             
+                </div><!---row-->
+            </div><!--contents-->
+        </div><!--dashboard-->
+        <!--Call our external javascript file to render the contents of each menu-->
+        <script src="./js/script.js"></script>                
+    </body>
+</html>
