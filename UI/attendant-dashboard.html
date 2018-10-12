@@ -11,6 +11,7 @@
         <header>            
             <div>
                 <img src="./images/shopping-cart.svg" height="50px" width="50px"> &nbsp;&nbsp; Store Manager
+                <a href="./login.html" style="margin-right: 10px;color:white;font-size: 20px;float: right;">Logout</a>
             </div>           
         </header>
         <div class="dashboard">
@@ -19,12 +20,31 @@
                 <button class="tabs" onclick="openPage(event, 'ShoppingCart')">Shopping Cart</button>                
                 <button class="tabs" onclick="openPage(event, 'Products')">Products</button>
                 <button class="tabs" onclick="openPage(event, 'Sales')">Sales</button>
-                <button>Logout</button>
             </div><!--side-menu-->
 
             <div class="contents" id="Dashboard" >
-                <h2>Dashboard Summary</h2>
-                <p>My Summary</p>
+                <h2>Store Attendant Dashboard Summary</h2>
+                <div class="row">
+                        <div class="default-dashboard">
+                            <div>
+                                <h2>No. of Sales</h2>                        
+                                <p>145,700</p>
+                            </div>                    
+                        </div><!--default-dashboard-->
+    
+                        <div class="default-dashboard">
+                            <div>
+                                <h2>No. of Products Sold</h2>                         
+                                <p>23,560</p>
+                            </div>           
+                        </div><!--default-dashboard-->
+                        <div class="default-dashboard">
+                            <div>
+                                <h2>Worth Of Products Sold</h2>                         
+                                <p>463,500</p>
+                            </div>           
+                        </div><!--default-dashboard-->                                                             
+                </div><!---row-->
             </div><!--contents-->
 
             <div id="Sales" class="contents">
