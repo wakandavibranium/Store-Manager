@@ -121,3 +121,38 @@ div .contents {
     border-left: none;
     height: 520px;
 }
+
+.table-title h2 {
+    color: black;
+}
+
+table {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #b3aeae;
+    text-align: center;
+    padding: 10px;
+}
+
+td a{
+    color: black;
+}
+
+/*Style odd numbered rows in the table 
+with blue background and white text*/
+tr:nth-child(odd) {
+    background-color: #003366;
+    color: #d1cece;
+}
+
+/*Style even numbered rows in the table 
+with white background and black text*/
+tr:nth-child(even) {
+    background-color: #d1cece;
+    color: black;
+}
