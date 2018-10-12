@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <title>Store Manager | Login</title>
+        <title>Store Manager | Sign Up</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
 
@@ -11,23 +11,25 @@
         <div class="form-wrapper">
             <h2>Sign Up</h2>
             <div>
-                <label for="username" class="form-label"><b>Name</b></label>
-                <input type="text" placeholder="Your Name" name="username" required>
-                <br>                
-                <label for="email" class="form-label"><b>Email</b></label>
-                <input type="text" placeholder="Your Email" name="email" required>
-                <br>
-                <label for="phone" class="form-label"><b>Phone</b></label>
-                <input type="text" placeholder="Your Phone No." name="phone" required>
-                <br>                           
-                <label for="password" class="form-label"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
-                <br>                                
-                <label for="confirm-password" class="form-label"><b>Confirm Password</b></label>
-                <input type="password" placeholder="Confirm Password" name="confirm-password" required>
-                <div>
-                    <button class="btn">Sign Up</button>                     
-                </div>                
+                <form action="./login.html">
+                    <label for="username" class="form-label"><b>Name</b></label>
+                    <input type="text" placeholder="Your Name" name="username" required>
+                    <br>                
+                    <label for="email" class="form-label"><b>Email</b></label>
+                    <input type="text" placeholder="Your Email" name="email" required>
+                    <br>
+                    <label for="phone" class="form-label"><b>Phone</b></label>
+                    <input type="text" placeholder="Your Phone No." name="phone" required>
+                    <br>                           
+                    <label for="password" class="form-label"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                    <br>                                
+                    <label for="confirm-password" class="form-label"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm Password" name="confirm-password" required>
+                    <br>
+                    <input type="submit" value="Sign Up" class="btn">
+                </form>
+                <br><br> 
             </div>            
         </div>      
     </body>
