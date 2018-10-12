@@ -59,3 +59,65 @@ h2 {
     width: 20%;
     border: rgb(139, 131, 131); 
 }
+
+header {    
+    font-size: 22px;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    color: white;
+    width: 100%;
+}
+
+div .dashboard {
+    width: 100%;
+}
+
+div .side-menu {
+    box-sizing: border-box;
+    float: left;
+    background-color:#003366;
+    width: 15%;
+    height: 520px;
+}
+
+/* Style the buttons inside the side-menu */
+.side-menu button {
+    display: block;
+    background-color: inherit;
+    border: none;
+    border-top : 1px solid #cccccc;
+    color: #ffffff;
+    padding: 22px 16px;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: 0.2s;     
+}
+
+/* Increase the visbility of background color of buttons on hover */
+.side-menu button:hover {
+    opacity: 1.0; 
+}
+
+/* Change color of the active "side-menu button" class */
+.side-menu button.active {
+    background-color: #43688d;
+}
+
+/* Style the contents of each side-menu */
+div .contents {
+    border-top : 1px solid #003366;    
+    background-color:#CCCCCC;
+    box-sizing: border-box;
+    float: left;
+    padding: 0px 12px;
+    width: 85%;
+    border-left: none;
+    height: 520px;
+}
