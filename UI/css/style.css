@@ -236,3 +236,12 @@ form.search-bar button {
 .green button:hover {
     opacity: 1.0; 
 }
+
+footer {
+    margin-left: 40%;
+    bottom: 13px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
